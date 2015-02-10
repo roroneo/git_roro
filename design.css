@@ -6,6 +6,7 @@ padding: 0px;
 
 section
 {
+padding-top: 2em;
 min-height: 100%;
 background: linear-gradient(to top, rgb(255,255,255), rgb(180,180,180));
 text-align: center;
@@ -14,5 +15,23 @@ text-align: center;
 section form p
 {
 font-size: 1.1em;
-color: red;
+color: blue;
+}
+
+section h3
+{
+font-size: 1.6em;
+color: green;
+}
+
+section p a
+{
+color: black;
+font-weight: bold;
+text-decoration: none;
+}
+
+section p a:hover
+{
+text-decoration: underline;
 }
