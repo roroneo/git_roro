@@ -90,4 +90,50 @@ elseif($_GET['page'] == traite)
 		header('Location: index.php?page=sent');
 	}
 }
+
+elseif($_GET['page'] == oubli)
+{
+?>
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="design.css" />
+                <title>Formulaire de contact</title>
+        </head>
+
+        <body>
+	<section>
+		<h3>Données manquantes!</h3>
+		<p>Merci de renseigner tous les champs du formulaire!<br/>
+		<a href="index.php">Retour au formulaire</a></p>
+	</section>
+
+	</body>
+	</html>
+<?php
+}
+
+elseif($_GET['page'] == sent)
+{
+?>
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="design.css" />
+                <title>Formulaire de contact</title>
+        </head>
+
+        <body>
+
+        <section>
+		<h3>Message envoyé!</h3>
+		<p>Votre message a bien été envoyé. Nous vous répondrons dès que possible</p>
+	</section>
+
+	</body>
+	</html>
+<?php
+}
 ?>
